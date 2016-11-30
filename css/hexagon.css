@@ -1,1 +1,1 @@
-svg .hexagon polygon{fill:#31b0d5;stroke:white;stroke-width:1}svg .hexagon:hover polygon{opacity:.5}
+svg .hexagon polygon{fill:#31b0d5;stroke:white;stroke-width:1}svg .hexagon:hover polygon{opacity:.5}svg .hexagon.draggable{cursor:move}
