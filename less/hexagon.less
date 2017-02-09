@@ -1,0 +1,22 @@
+@default-hexagon-color: #31b0d5;
+@default-hexagon-border-color: white;
+
+svg{
+	/* HEXAGON */
+	.hexagon,.tower{
+		polygon{
+			fill: @default-hexagon-color;
+			stroke: @default-hexagon-border-color;
+			stroke-width: 1;
+		}
+		&:hover{
+			polygon{
+				opacity: 0.5;
+			}
+		}
+		
+		&.draggable{
+			cursor: move;
+		}	
+	}	
+}
